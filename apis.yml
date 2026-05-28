@@ -1,0 +1,32 @@
+aid: http-dog
+name: HTTP Dog
+description: "Dogs for every HTTP response status code"
+url: https://http.dog/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Animals"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Animals
+  - Public APIs
+apis:
+  - name: HTTP Dog
+    description: "Dogs for every HTTP response status code"
+    humanURL: https://http.dog/
+    baseURL: https://http.dog/
+    tags:
+      - Animals
+    properties:
+      - type: Documentation
+        url: https://http.dog/
+common:
+  - type: Website
+    url: https://http.dog/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
