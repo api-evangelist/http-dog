@@ -39,7 +39,6 @@ apis:
   - name: HTTP Dog
     description: "Dogs for every HTTP response status code"
     humanURL: https://http.dog/
-    baseURL: https://http.dog/
     tags:
       - Animals
     properties:
